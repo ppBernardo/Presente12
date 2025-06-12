@@ -19,9 +19,9 @@ interface Momento {
 }
 
 const momentos: Momento[] = [
-  { title: "Nosso Encontro", image: ".jpg" },
-  { title: "Primeiro Beijo", image: "momento2.jpg" },
-  { title: "Viagem Inesquecível", image: "viagem.jpg" },
+  { title: "", image: "mirante.jpg" },
+  { title: "", image: "Shopping.jpg" },
+  { title: "", image: "gracinha.jpg" },
 ];
 
 
@@ -32,7 +32,7 @@ function App() {
   const loveMessages: LoveMessage[] = [
     {
       title: "Meu Amor Eterno",
-      message: "Cada dia ao seu lado é um presente. Você é a razão do meu sorriso e a luz que ilumina meus dias.",
+      message: "Os dias ao seu lado é um presente. Você é a razão do meu sorriso e a luz que ilumina meus dias.",
       icon: Heart
     },
     {
@@ -42,7 +42,7 @@ function App() {
     },
     {
       title: "Nosso Futuro",
-      message: "Sonho com todos os amanheceres que ainda vamos compartilhar juntos. Você é meu para sempre.",
+      message: "Sonho com a nossa casinha no campo.",
       icon: Sparkles
     }
   ];
@@ -210,7 +210,7 @@ function App() {
           <div className="flex justify-center mb-6">
             <div className="flex items-center gap-2 px-6 py-3 bg-white/60 backdrop-blur-sm rounded-full">
               <Heart className="w-5 h-5 text-rose-500 fill-current animate-pulse" />
-              <span className="text-gray-700 font-medium">Feito com amor infinito</span>
+              <span className="text-gray-700 font-medium">Feito pro amor da minha vida</span>
               <Heart className="w-5 h-5 text-rose-500 fill-current animate-pulse" />
             </div>
           </div>
